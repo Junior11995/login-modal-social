@@ -1,0 +1,67 @@
+.modal {
+  display: none; /* Oculto por defecto */
+  position: fixed; /* Posiciona el modal */
+  z-index: 999; /* Asegúrate de que esté por encima de otros elementos */
+  left: 0;
+  top: 0;
+  width: 100%; /* Ancho completo */
+  height: 100%; /* Alto completo */
+  overflow: auto; /* Habilita desplazamiento si es necesario */
+  background-color: rgb(0,0,0); /* Color de fondo */
+  background-color: rgba(0,0,0,0.4); /* Fondo negro con opacidad */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* Margen en el centro */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Ancho del modal */
+  max-width: 500px; /* Ancho máximo */
+  border-radius: 5px; /* Esquinas redondeadas */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Sombra */
+}
+
+.close {
+  color: #aaa;
+  float: right; /* Mueve el botón de cerrar a la derecha */
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.social-login-btns {
+  display: flex;
+  justify-content: space-between; /* Espacio entre los botones */
+  margin-bottom: 20px; /* Margen inferior */
+}
+
+.social-login-btn {
+  flex: 1;
+  margin: 0 10px; /* Margen entre los botones */
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #4285F4; /* Color de fondo del botón de Google */
+  color: white;
+}
+
+.facebook-btn {
+  background-color: #3B5998; /* Color de fondo del botón de Facebook */
+}
+
+.open-login-btn {
+  background-color: #4285F4; /* Color del botón de inicio de sesión */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
